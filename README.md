@@ -115,3 +115,9 @@ def render(template_name)
 end
 ...
 ````
+
+#Running on Local Server
+
+Clone the project and inside the project root, run rails: `$ rails s`. This will create a WEBrick connection on port `80`. You can navigate to it by typing in `localhost:80` (if on OSX).
+
+Edit the pages to your heart's desire. By default, you can check to see if it's working by navigating to `localhost:80/cats`. If you see a list of weird cat names, you're all set!
